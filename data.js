@@ -1,4 +1,4 @@
-{
+var Data_dict = {
     "WA": {
         "housing_2002": [
             "112",
