@@ -52,7 +52,7 @@
 }
 </style>
 <body>
-	<h1> Year : 2003 </h1>
+	<h1> Year : 2004 </h1>
 <center>
 <div id="tooltip"></div><!-- div to hold tooltip. -->
 <h3 class="great"><h2> Hover on any state </h2></h3>
@@ -16848,9 +16848,9 @@ var Data_dic =
 	"CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
 	"WI", "MO", "AR", "OK", "KS", "LA", "VA"]
 		.forEach(function(d){ 
-			var median = parseInt(Data_dict[d]['housing_2003'][14]), 
-				minimum = parseInt(Data_dict[d]['housing_2003'][13]), 
-				maximum = parseInt(Data_dict[d]['housing_2003'][12]);
+			var median = parseInt(Data_dict[d]['housing_2004'][14]), 
+				minimum = parseInt(Data_dict[d]['housing_2004'][13]), 
+				maximum = parseInt(Data_dict[d]['housing_2004'][12]);
 			sampleData[d]={median:median, minimum : minimum, 
 					maximum: maximum, color:d3.interpolate("#ffffcc", "#800026")(maximum/300)}; 
 		});
